@@ -11,98 +11,83 @@
   "tasks": {
     "build": {
       "name": "build",
-      "command": "pnpm build",
-      "runAtStart": false
+      "command": "pnpm build"
     },
     "build:cli": {
       "name": "build:cli",
-      "command": "pnpm build:cli",
-      "runAtStart": false
+      "command": "pnpm build:cli"
     },
     "build:registry": {
       "name": "build:registry",
-      "command": "pnpm build:registry",
-      "runAtStart": false
+      "command": "pnpm build:registry"
     },
     "dev": {
       "name": "dev",
       "command": "pnpm dev",
-      "runAtStart": true
+      "runAtStart": true,
+      "preview": {
+        "port": 3001
+      }
     },
     "dev:cli": {
       "name": "dev:cli",
-      "command": "pnpm dev:cli",
-      "runAtStart": false
+      "command": "pnpm dev:cli"
     },
     "start:cli": {
       "name": "start:cli",
-      "command": "pnpm start:cli",
-      "runAtStart": false
+      "command": "pnpm start:cli"
     },
     "lint": {
       "name": "lint",
-      "command": "pnpm lint",
-      "runAtStart": false
+      "command": "pnpm lint"
     },
     "lint:fix": {
       "name": "lint:fix",
-      "command": "pnpm lint:fix",
-      "runAtStart": false
+      "command": "pnpm lint:fix"
     },
     "preview": {
       "name": "preview",
-      "command": "pnpm preview",
-      "runAtStart": false
+      "command": "pnpm preview"
     },
     "typecheck": {
       "name": "typecheck",
-      "command": "pnpm typecheck",
-      "runAtStart": false
+      "command": "pnpm typecheck"
     },
     "format:write": {
       "name": "format:write",
-      "command": "pnpm format:write",
-      "runAtStart": false
+      "command": "pnpm format:write"
     },
     "format:check": {
       "name": "format:check",
-      "command": "pnpm format:check",
-      "runAtStart": false
+      "command": "pnpm format:check"
     },
     "sync:templates": {
       "name": "sync:templates",
-      "command": "pnpm sync:templates",
-      "runAtStart": false
+      "command": "pnpm sync:templates"
     },
     "prepare": {
       "name": "prepare",
-      "command": "pnpm prepare",
-      "runAtStart": false
+      "command": "pnpm prepare"
     },
     "check": {
       "name": "check",
-      "command": "pnpm check",
-      "runAtStart": false
+      "command": "pnpm check"
     },
     "release": {
       "name": "release",
-      "command": "pnpm release",
-      "runAtStart": false
+      "command": "pnpm release"
     },
     "pub:beta": {
       "name": "pub:beta",
-      "command": "pnpm pub:beta",
-      "runAtStart": false
+      "command": "pnpm pub:beta"
     },
     "pub:release": {
       "name": "pub:release",
-      "command": "pnpm pub:release",
-      "runAtStart": false
+      "command": "pnpm pub:release"
     },
     "test": {
       "name": "test",
-      "command": "pnpm test",
-      "runAtStart": false
+      "command": "pnpm test"
     }
   }
 }

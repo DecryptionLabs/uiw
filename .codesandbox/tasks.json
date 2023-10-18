@@ -1,0 +1,108 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "pnpm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build": {
+      "name": "build",
+      "command": "pnpm build",
+      "runAtStart": false
+    },
+    "build:cli": {
+      "name": "build:cli",
+      "command": "pnpm build:cli",
+      "runAtStart": false
+    },
+    "build:registry": {
+      "name": "build:registry",
+      "command": "pnpm build:registry",
+      "runAtStart": false
+    },
+    "dev": {
+      "name": "dev",
+      "command": "pnpm dev",
+      "runAtStart": true
+    },
+    "dev:cli": {
+      "name": "dev:cli",
+      "command": "pnpm dev:cli",
+      "runAtStart": false
+    },
+    "start:cli": {
+      "name": "start:cli",
+      "command": "pnpm start:cli",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "pnpm lint",
+      "runAtStart": false
+    },
+    "lint:fix": {
+      "name": "lint:fix",
+      "command": "pnpm lint:fix",
+      "runAtStart": false
+    },
+    "preview": {
+      "name": "preview",
+      "command": "pnpm preview",
+      "runAtStart": false
+    },
+    "typecheck": {
+      "name": "typecheck",
+      "command": "pnpm typecheck",
+      "runAtStart": false
+    },
+    "format:write": {
+      "name": "format:write",
+      "command": "pnpm format:write",
+      "runAtStart": false
+    },
+    "format:check": {
+      "name": "format:check",
+      "command": "pnpm format:check",
+      "runAtStart": false
+    },
+    "sync:templates": {
+      "name": "sync:templates",
+      "command": "pnpm sync:templates",
+      "runAtStart": false
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "pnpm prepare",
+      "runAtStart": false
+    },
+    "check": {
+      "name": "check",
+      "command": "pnpm check",
+      "runAtStart": false
+    },
+    "release": {
+      "name": "release",
+      "command": "pnpm release",
+      "runAtStart": false
+    },
+    "pub:beta": {
+      "name": "pub:beta",
+      "command": "pnpm pub:beta",
+      "runAtStart": false
+    },
+    "pub:release": {
+      "name": "pub:release",
+      "command": "pnpm pub:release",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "pnpm test",
+      "runAtStart": false
+    }
+  }
+}
